@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="style">
+
+     <form>
+
+        <div class="container" id="urlTxt" >
+            <div class="txt"> Enter URL :</div>
+            <input type="text" class="box" id="url" onchange="linkUrl()" size="50">
+    
+            <div class="txt"> Open with new window :</div>
+            <input type="checkbox" id="checkBox">
+        </div>
+
+        <div class="container" id="width">
+            <div class="txt">Width in px :</div>
+            <input type="number" class="box" id="boxWidthPx"  onchange="widthPx()"; >
+        
+            <div class="txt">Width in % :</div>
+            <input type="number" class="box" id="boxWidthPer" value="" onchange="widthPer()">
+        </div>
+
+        <div class="container" id="Height">
+            <div class="txt">Height in px :</div>
+            <input type="number" class="box" id="boxHeightPx"  onchange="heightPx()">
+        
+            <div class="txt">Height in % :</div>
+            <input type="number" class="box" id="boxHeightPer"  onchange="heightPer()">
+        </div>
+        <input type="reset" valu="reset"  class="reset">
+
+     </form>
+     
+    </div>
+    
+    <div>
+        <img src="/image/girl.jpg" id="img" class="img">
+    </div>
+
+<script src="../js/index.js"></script>
+    
+</body>
+</html>
