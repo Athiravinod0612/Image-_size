@@ -1,0 +1,28 @@
+body{
+    background-color: #CDFAD5;
+}
+#urlTxt{
+    float: right;
+    margin-right: 10%;
+}
+#width{
+    float: left;
+    margin-left: 3% ;
+    margin-right: 3%;
+}
+img{
+    margin-top: 5%;
+}
+.txt{
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.reset{
+    margin-top: 20px;
+    margin-left: 193px;
+}
+img{
+    margin-left: 150px;
+    
+}
